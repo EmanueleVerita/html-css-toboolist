@@ -25,6 +25,27 @@ body{
     background-color: #F6F8F9;
 }
 
+.background-white{
+    background-color: white;
+}
+
+.my-button{
+    border: 1px solid gray;
+    color: gray;
+    padding: 5px 10px;
+    border-radius: 4px;
+    background-color: white;
+    font-weight: 600;
+    font-size: 1.05em;
+}
+
+.main-button{
+    color: white;
+    background-color: #47ADF1;
+    border-color: #47ADF1;
+}
+
+
 /*
 
 HEADER
@@ -34,6 +55,7 @@ HEADER
 header{
     background-color: white;
     padding: 15px;
+    margin-bottom: 50px;
 }
 
 h1{
@@ -43,4 +65,81 @@ h1{
 
 #main-logo{
     vertical-align: middle;
+}
+
+.container{
+    width: 75%;
+    margin: auto;
+    
+}
+
+.button-container{
+    padding: 50px 40px;
+    border-bottom: 2px solid lightcoral;
+    border-bottom-right-radius: 5px;
+
+}
+
+.list-container{
+    font-size: 2em;
+
+}
+.tasks-list{
+    list-style: none;
+    padding-left: 15px;
+}
+
+.check{
+    display: inline-block;
+    width: 23px;
+    height: 23px;
+    border: 1px solid black;
+    border-radius: 50%;
+    text-align: center;
+    
+
+}
+
+.done{
+    border-color: green;
+    color: green;
+}
+
+.not-done{
+    border-color: red;
+    color: red;
+}
+
+.tag{
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: small;
+    background-color: gray;
+    color: white;
+
+}
+
+.editorial{
+    background-color: #47ADF1;
+}
+
+.Q1-Goals{
+    background-color: purple;
+}
+
+.recruiting{
+    background-color: green;
+}
+
+.mobile{
+    background-color: orange;
+}
+
+.website{
+    background-color: fuchsia;
+}
+
+.sales{
+    background-color: greenyellow;
 }
